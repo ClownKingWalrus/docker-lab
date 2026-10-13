@@ -106,12 +106,12 @@ Some portions of the lab will require you to investigate the source code to find
 This lab will use all of the information above, and will require a lot of back and forth. This lab is rather loose as I will not tell you what to use and where, as you have all the resources you need above you. If you are completing this during the lab portion of the meeting, then feel free to ask questions.
 
 1. launch the containers inside docker compose.
-2. connect to the webserver using your browser at url https://localhost:8080
+2. connect to the webserver using your browser at url http://localhost:8080
 3. click the button and notice the update.
 4. enter an interactive terminal in alpine and use the following commands to add curl to the container:
     apk upgrade |
     apk update |
-    apk get curl
+    apk add curl
 5. curl the backend's get api from inside the alpine container (remember we are inside the container so we have the DNS) and notice the output
 6. now put the same url inside your host machine's browser.
 
