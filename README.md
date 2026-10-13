@@ -12,7 +12,7 @@ A container is just another process like any other based on an image. The only d
 The system then tells the container it is the root user and has all permissions, and as such, it functions pretty much like a virtual machine. Except, in reality, it is just another process on your machine. You can access what it is doing from the host, but it can't do anything outside of its assigned area.
 
 ## Whats an image?
-The image is just the bluepring the process is made from. If you think of your google chrome program as the image, and your google chrome process as the container, you have the right idea. We just have to define the containers very explicitly, as normally you get programs that are download and use. Here we build them a little.
+The image is just the blueprint the process is made from. If you think of your google chrome program as the image, and your google chrome process as the container, you have the right idea. We just have to define the containers very explicitly, as normally you get programs that are download and use. Here we build them a little.
 
 ## Networking? but this is a process?
 
@@ -130,6 +130,6 @@ Here we have shown that containers can host interactive terminals. This is impor
 
 # Post-lab
 
-Good job finishing the lab. While I showed you everything I thought was important in sucha  small time there is still so much more for you to be able to learn. I emplore you to go back through and make modifications and figure out how to make the docker work your own.
+Good job finishing the lab. While I showed you everything I thought was important in such a small time there is still so much more for you to be able to learn. I emplore you to go back through and make modifications and figure out how to make the docker work your own.
 
 Containerization is an extremely important tool, and is applicable to any and every project you do in school. there are some things containers aren't good at like guis, but not everything needs to be in a container. you can just containerize your db, and leave everything else normal. Thats what is so awesome about containers, is that you can mix and match them to be used where they give an advantage and not used where they don't.
